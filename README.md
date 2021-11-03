@@ -1,5 +1,5 @@
 # IndustroTech
-***
+
 ## About
 
 A tech mod based around progression and carefully expanding your processing power.
