@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "indutech",
+  "version": "${version}",
+
+  "name": "IndustroTech",
+  "description": "Kitchen sink tech mod, inspired by IC/IC2!",
+  "authors": [
+    "Codeni"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Codenii/IndustroTech"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/indutech/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.codeni.industrotech.IndustroTech"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
