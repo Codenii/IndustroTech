@@ -8,7 +8,7 @@ A tech mod based around progression and carefully expanding your processing powe
 [WIP]
 ## License
 
-[LGPLv3](https://raw.githubusercontent.com/AppliedEnergistics/Applied-Energistics-2/rv2/LICENSE)
+[LGPLv3](https://raw.githubusercontent.com/Codenii/IndustroTech/master/LICENSE)
 ## Downloads
 
 [WIP]
