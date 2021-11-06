@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "indutech:ruby"
+    },
+    {
+      "item": "indutech:ruby"
+    },
+    {
+      "item": "indutech:ruby"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  },
+  "group": "indutech"
+}
