@@ -18,8 +18,13 @@ public class ModBlocks {
             .strength(5f, 30f)
             .sounds(BlockSoundGroup.METAL)
     );
+    public static final Block ALUMINUM_ORE = new Block(FabricBlockSettings.of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(3f, 3f).sounds(BlockSoundGroup.METAL));
+    public static final Block ALUMINUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(5f, 6f).sounds(BlockSoundGroup.METAL));
+
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(IndustroTech.MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(IndustroTech.MOD_ID, "aluminum_ore"), ALUMINUM_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(IndustroTech.MOD_ID, "aluminum_block"), ALUMINUM_BLOCK);
     }
 }

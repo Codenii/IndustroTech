@@ -37,9 +37,6 @@ public class IndustroTech implements ModInitializer {
             })
             .build();
 
-    private static final Identifier EMERALD_ORE_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/emerald_ore");
-    private static final Identifier RUBY_BLOCK_LOOT_TABLE_ID = new Identifier(MOD_ID, "blocks/ruby_block");
-
     @Override
     public void onInitialize() {
         ModItems.registerItems();

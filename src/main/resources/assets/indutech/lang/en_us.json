@@ -1,6 +1,9 @@
 {
   "item.indutech.ruby": "Ruby",
   "block.indutech.ruby_block": "Ruby Block",
+  "block.indutech.aluminum_ore": "Aluminum Ore",
+  "item.indutech.aluminum_ingot": "Aluminum Ingot",
+  "block.indutech.aluminum_block": "Aluminum Block",
   "itemGroup.indutech.general": "IndustroTech Items",
   "itemGroup.indutech.other": "Custom ItemGroup"
 }
