@@ -44,23 +44,5 @@ public class IndustroTech implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
-        modifyLootTables();
-    }
-
-    private void modifyLootTables() {
-        LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
-            if (EMERALD_ORE_LOOT_TABLE_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1f))
-                        .with(ItemEntry.builder(Items.GOLD_NUGGET))
-                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 4f)).build());
-                supplier.withPool(poolBuilder.build());
-
-                FabricLootPoolBuilder poolBuilder1 = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1f))
-                        .with(LootTableEntry.builder(RUBY_BLOCK_LOOT_TABLE_ID));
-                supplier.withPool(poolBuilder1.build());
-            }
-        }));
     }
 }

@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#D#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
       "item": "indutech:ruby"
-    },
-    "D": {
-      "item": "minecraft:diamond"
     }
   },
   "result": {
     "item": "indutech:ruby_block",
-    "count": 5
+    "count": 1
   },
   "group": "indutech"
 }
