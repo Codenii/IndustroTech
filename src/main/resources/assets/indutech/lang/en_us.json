@@ -4,6 +4,9 @@
   "block.indutech.aluminum_ore": "Aluminum Ore",
   "item.indutech.aluminum_ingot": "Aluminum Ingot",
   "block.indutech.aluminum_block": "Aluminum Block",
+  "block.indutech.tin_ore": "Tin Ore",
+  "block.indutech.tin_block": "Tin Block",
+  "item.indutech.tin_ingot": "Tin Ingot",
   "itemGroup.indutech.general": "IndustroTech Items",
   "itemGroup.indutech.other": "Custom ItemGroup"
 }

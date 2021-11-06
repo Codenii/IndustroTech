@@ -11,21 +11,26 @@ public class ModItems {
     //Items
     public static final Item RUBY = new Item(new Item.Settings().group(IndustroTech.ITEM_GROUP));
     public static final Item ALUMINUM_INGOT = new Item(new Item.Settings().group(IndustroTech.ITEM_GROUP));
-
+    public static final Item TIN_INGOT = new Item(new Item.Settings().group(IndustroTech.ITEM_GROUP));
 
     //Blocks
     public static final BlockItem RUBY_BLOCK = new BlockItem(ModBlocks.RUBY_BLOCK, new Item.Settings().group(IndustroTech.ITEM_GROUP));
     public static final BlockItem ALUMINUM_ORE = new BlockItem(ModBlocks.ALUMINUM_ORE, new Item.Settings().group(IndustroTech.ITEM_GROUP));
-    public  static final BlockItem ALUMINUM_BLOCK = new BlockItem(ModBlocks.ALUMINUM_BLOCK, new Item.Settings().group(IndustroTech.ITEM_GROUP));
+    public static final BlockItem ALUMINUM_BLOCK = new BlockItem(ModBlocks.ALUMINUM_BLOCK, new Item.Settings().group(IndustroTech.ITEM_GROUP));
+    public static final BlockItem TIN_ORE = new BlockItem(ModBlocks.TIN_ORE, new Item.Settings().group(IndustroTech.ITEM_GROUP));
+    public static final BlockItem TIN_BLOCK = new BlockItem(ModBlocks.TIN_BLOCK, new Item.Settings().group(IndustroTech.ITEM_GROUP));
 
     public static void registerItems() {
         //Items
         Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "ruby"), RUBY);
         Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "aluminum_ingot"), ALUMINUM_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "tin_ingot"), TIN_INGOT);
 
         //Blocks
         Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "ruby_block"), RUBY_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "aluminum_ore"), ALUMINUM_ORE);
         Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "aluminum_block"), ALUMINUM_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "tin_ore"), TIN_ORE);
+        Registry.register(Registry.ITEM, new Identifier(IndustroTech.MOD_ID, "tin_block"), TIN_BLOCK);
     }
 }
